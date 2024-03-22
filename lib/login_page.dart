@@ -87,11 +87,11 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 10),
 
               //forgot password?
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 25.0),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 25.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
-                  children: const [
+                  children: [
                     Text(
                       'Forgot Password?',
                       style: TextStyle(
@@ -146,9 +146,9 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 40),
 
               // google sign in button
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
+                children: [
                   // google button
                   SquareTile(
                     imagePath: 'lib/images/google.png',
@@ -168,9 +168,9 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 40),
 
               // not a member? resister now
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
+                children: [
                   Text(
                     'Not a member?',
                     style: TextStyle(color: Colors.white),
