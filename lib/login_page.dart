@@ -1,7 +1,8 @@
-import 'package:fantasy_app/components/my_button.dart';
-import 'package:fantasy_app/components/my_textfield.dart';
-import 'package:fantasy_app/components/square_tile.dart';
 import 'package:flutter/material.dart';
+
+import 'components/my_button.dart';
+import 'components/my_textfield.dart';
+import 'components/square_tile.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
