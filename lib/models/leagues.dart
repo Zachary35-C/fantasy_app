@@ -72,7 +72,7 @@ class Parameters {
     });
 
     factory Parameters.fromJson(Map<String, dynamic> json) => Parameters(
-        id: json["id"],
+        id: (json["id"]).toString(),
     );
 
     Map<String, dynamic> toJson() => {
@@ -117,8 +117,8 @@ class Country {
 
     factory Country.fromJson(Map<String, dynamic> json) => Country(
         name: json["name"],
-        code: json["code"],
-        flag: json["flag"],
+        code: (json["code"]).toString(),
+        flag: (json["flag"]).toString(),
     );
 
     Map<String, dynamic> toJson() => {
